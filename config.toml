@@ -39,15 +39,15 @@ name = "About"
 URL = "book"
 weight = 1
 
-[[menu.main]]
-name = "Chapter"
-URL = "chapter"
-weight = 2
+# [[menu.main]]
+# name = "Chapter"
+# URL = "chapter"
+# weight = 2
 
-[[menu.main]]
-name = "Reviews"
-URL = "review"
-weight = 3
+# [[menu.main]]
+# name = "Reviews"
+# URL = "review"
+# weight = 3
 
 [[menu.main]]
 name = "Author"

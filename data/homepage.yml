@@ -1,12 +1,11 @@
 ########################## Banner #############################
 banner:
   enable : true
-  writter : "George Stewart"
-  title : "The Man in the <br>Glass House"
+  writter : ""
+  title : "Антибиотикограмма"
   image : "images/about/book.png"
-  content : "We work with our partners to streamline project plans that don’t just deliver on
-            product perfection, but also delivers on time."
-  price : "14.99"
+  content : "Настольная книга о чтении и интерпретации антибиотикограммы"
+  price : ""
 
 ######################## Book Preview ##########################
 preview:
@@ -17,24 +16,22 @@ preview:
     - image : "images/about/book_page2.png"
     - image : "images/about/book_page.png"
 
-  title : "Look Inside the book"
+  title : "О чем эта книга"
+  # subtitle: "_«Усложнять просто, упрощать сложно»_"
   content : "
-  This lovely, well-written book is concerned with creating typography and is essential for professionals who regularly work for clients.
-
-
-  Dolor quam consectetur corrupti, dignissimos sequi. Nihil totam alias, ipsa facere quibusdam, modi accusamus quod quae quaerat.
+  В настоящем издании представлена информация по вопросам получения, формирования, чтения и интерпретации антибиотикограммы – одного из важнейших инструментов, необходимых для выбора этиотропной антимикробной терапии, а также проведения мониторинга антимикробной резистентности. Данное издание предназначено для широкого круга специалистов, работающих в сфере здравоохранения, а основная его цель – стать отправной точкой для изучения различных вопросов, связанных с процессом получения и интерпретации антибиотикограммы.
   "
 
   inside:
     # book inside item loop
-    - insideItem : "7 Chapter"
-    - insideItem : "Explained Details"
-    - insideItem : "Clear Understanding"
-    - insideItem : "Best practices"
+    - insideItem : "8 разделов + приложения"
+    - insideItem : "Описаны основы диагностики и терапии"
+    - insideItem : "Систематизирована информация о методах исследования"
+    - insideItem : "Представлены алгоритмы интерпретации результатов"
 
   # button
   button:
-    enable : true
+    enable : false
     label : "Purchase on Amazon"
     link : "#"
 
@@ -44,31 +41,31 @@ service:
   enable : true
   serviceItem:
     # service item loop
-    - title : "Experience"
-      icon : "ti-microphone" # themify icon pack : https://themify.me/themify-icons
-      content : "Must explain to you how this denouncing praisig pain was give you explain to you how."
+    - title : "Незаменимое руководство"
+      icon : "ti-agenda" # themify icon pack : https://themify.me/themify-icons
+      content : "является руководством по получению, формированию, чтению и интерпретации антибиотикограмм, что делает ее незаменимым инструментом для специалистов в сфере здравоохранения."
       
     # service item loop
-    - title : "Marketing Goals"
-      icon : "ti-rocket" # themify icon pack : https://themify.me/themify-icons
-      content : "Must explain to you how this denouncing praisig pain was give you explain to you how."
+    - title : "Основа для прогресса"
+      icon : "ti-light-bulb" # themify icon pack : https://themify.me/themify-icons
+      content : "служит основой для изучения и понимания антибиотикограмм, что позволяет специалистам здравоохранения оставаться в курсе передовых методов лечения и улучшать результаты лечения пациентов."
       
     # service item loop
-    - title : "Targetting Vission"
-      icon : "ti-email" # themify icon pack : https://themify.me/themify-icons
-      content : "Must explain to you how this denouncing praisig pain was give you explain to you how."
+    - title : "Надежный источник"
+      icon : "ti-cup" # themify icon pack : https://themify.me/themify-icons
+      content : "книга составлена экспертами в области антимикробной резистентности, что делает ее надежным источником информации для специалистов здравоохранения, стремящихся обеспечить оптимальное лечение пациентов."
 
 
 ######################### Quote #############################
 quote:
   enable : true
-  quote: "It's simply the best guide to making money online ever released which only a fool would ignore."
-  quoteBy: "John Smith"
+  quote: "«Усложнять просто, упрощать сложно»"
+  quoteBy: "закон Мейера"
 
 
 ######################### Chapters ##########################
 chapters:
-  enable : true
+  enable : false
   title : "Full Chapter Overview"
   subtitle : "Libero atque veniam molestiae ipsa aliquid quam facilis dolore."
   chapter:
@@ -99,7 +96,7 @@ chapters:
 
 ########################## Revews ###########################
 reviews:
-  enable : true
+  enable : false
   title : "What people are saying"
   subtitle : "Amazing reviews illo tenetur laboriosam excepturi velit in, temporibus ab rem dicta sint obcaecati!"
   review:
@@ -134,7 +131,7 @@ reviews:
 
 #################################### device ################################
 devices:
-  enable : true
+  enable : false
   title : "Read it on your favorite device!"
   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae quod, nobis repudiandae! In
           commodi accusamus molestiae, sunt, tempora fugiat doloribus sint quisquam illo numquam corporis
@@ -176,7 +173,7 @@ author:
 
 ################################ Awards #####################################
 awards:
-  enable : true
+  enable : false
   title : "We are award winner best selling book among the top rated 10 books!"
   award:
     # award item loop
@@ -198,7 +195,7 @@ awards:
 
 ############################# Other books ###############################
 otherBooks:
-  enable : true
+  enable : false
   title : "Others books by the author"
   subtitle : "Laboriosam eos aperiam excepturi accusamus velit repudiandae sit rem incidunt, similique
             facere quas blanditiis."
@@ -221,7 +218,7 @@ otherBooks:
 
 ################################ Blog ###################################
 blog:
-  enable : true
+  enable : false
   title : "Our insights and articles"
   subtitle : "Laboriosam eos aperiam excepturi accusamus velit repudiandae sit rem incidunt, similique facere quas blanditiis."
   # blog post comes from 'content/blog'
@@ -229,20 +226,20 @@ blog:
 ################################# Contact ##############################
 contact:
   enable : true
-  title : "Contact Us"
-  subtitle : "Whether you have questions or you would just like to say hello, contact us.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, atque!"
+  title : "Контакты"
+  subtitle : "Комментарии, критические замечания, вопросы и пожелания можно направить на электронную почту"
   contactItem:
     # contact Item loop
-    - title : "Contact Quickly"
-      icon : "ti-headphone-alt" # themify icon pack : https://themify.me/themify-icons
-      list:
-        - listItem : "+23-68017684"
+    # - title : "Contact Quickly"
+    #   icon : "ti-headphone-alt" # themify icon pack : https://themify.me/themify-icons
+    #   list:
+    #     - listItem : "+23-68017684"
         
     # contact Item loop
     - title : "Email"
       icon : "ti-email" # themify icon pack : https://themify.me/themify-icons
       list:
-        - listItem : "startor@support.com"
+        - listItem : "antibiotic-book@yandex.ru"
         
     # contact Item loop
     - title : "Location"
