@@ -1,7 +1,7 @@
 ########################## Banner #############################
 banner:
   enable : true
-  writter : ""
+  writter : "Кузьменков А.Ю., Виноградова А.Г."
   title : "Антибиотикограмма"
   image : "images/about/book.png"
   content : "Настольная книга о чтении и интерпретации антибиотикограммы"
@@ -12,9 +12,13 @@ preview:
   enable : true
   pagePreview:
     # page preview loop
-    - image : "images/about/book_page.png"
-    - image : "images/about/book_page2.png"
-    - image : "images/about/book_page.png"
+    - image : "images/about/page_2.png"
+    - image : "images/about/page_3.png"
+    - image : "images/about/page_4.png"
+    - image : "images/about/page_5.png"
+    - image : "images/about/page_6.png"
+    - image : "images/about/page_7.png"
+    - image : "images/about/page_1.png"
 
   title : "О чем эта книга"
   # subtitle: "_«Усложнять просто, упрощать сложно»_"
@@ -156,19 +160,40 @@ devices:
     link : "#"
 
 ######################################## author #############################
-author:
+authors:
   enable : true
-  image : "images/about/home-1.jpg"
-  name : "Yasin Arafat"
-  designation : "A technical Writer"
-  content : "
-  Do you want to be even more successful? Learn to love learn and growth. The more efort you put into improving your skills, the bigger the payoff you will get.
+  items:
+    - name : "Алексей Юрьевич Кузьменков"
+      image : "images/about/person-1.jpg"
+      designation : "доктор медицинских наук (специальность фармакология, клиническая фармакология)"
+      content : "
+      Заместитель директора по стратегическим разработкам НИИ антимикробной химиотерапии профессор кафедры микробиологии ФГБОУ ВО «Смоленский государственный медицинский университет» Минздрава России. 
+      
 
+      Является выдающимся экспертом в области антимикробной резистентности. Автор национальной системы интерактивного мониторинга антибиотикорезистентности в России, а также создатель экосистемы AMRhub для поддержки специалистов в области антимикробной терапии. 
+      
 
-  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+      Его новаторские исследования и разработки внесли значительный вклад в понимание и борьбу с антимикробной резистентностью.  
+      "
+      source: https://amrhub.ru/team/kuzmenkov-ay/ 
+      signature : ""
+    - name : "Алина Геннадьевна Виноградова"
+      image : "images/about/person-2.jpg"
+      designation : "кандидат медицинских наук (специальность фармакология, клиническая фармакология)"
+      content : "
+      Старший научный сотрудник НИИ антимикробной химиотерапии доцент кафедры микробиологии ФГБОУ ВО «Смоленский государственный медицинский университет» Минздрава России. 
+      
 
-  # signature
-  signature : "images/about/2.png"
+      Признанный эксперт в области антимикробной резистентности. Автор более 39 научных публикаций и обладатель 11 свидетельств о государственной регистрации результатов интеллектуальной деятельности. 
+      
+
+      Является сооснователем экосистемы AMRhub и внесла значительный вклад в продвижение журнала «Клиническая микробиология и антимикробная химиотерапия» на международный уровень. Также является научным руководителем проекта «Цифровая кафедра» в СГМУ в рамках проекта «Цифровая экономика».
+      "
+
+      source: https://amrhub.ru/team/vinogradova-ag/
+      signature : ""
+
+  
 
 
 ################################ Awards #####################################
@@ -241,8 +266,8 @@ contact:
       list:
         - listItem : "antibiotic-book@yandex.ru"
         
-    # contact Item loop
-    - title : "Location"
-      icon : "ti-location-pin" # themify icon pack : https://themify.me/themify-icons
-      list:
-        - listItem : "397 Lake forest drive street USA"
+    # # contact Item loop
+    # - title : "Location"
+    #   icon : "ti-location-pin" # themify icon pack : https://themify.me/themify-icons
+    #   list:
+    #     - listItem : "397 Lake forest drive street USA"

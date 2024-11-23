@@ -240,29 +240,40 @@
 {{ end }}
 
 <!-- About Author -->
-{{ if .Site.Data.homepage.author.enable }}
-{{ with .Site.Data.homepage.author }}
+{{ if .Site.Data.homepage.authors.enable }}
+{{ with .Site.Data.homepage.authors }}
 <section class="about section" id="author">
   <div class="container">
+    {{ range $index, $author := .items }}
     <div class="row align-items-center">
       <div class="col-lg-5">
         <div class="about-img">
-          <img src="{{ .image | relURL }}" alt="{{ .name }}" class="img-fluid w-100">
+          <img src="{{ $author.image | relURL }}" alt="{{ $author.name }}" class="img-fluid w-100">
         </div>
       </div>
 
-      <div class="col-lg-6">
+      <div class="col-lg-7">
         <div class="author-info pl-4 mt-5 mt-lg-0">
-          <h2 class="text-lg">{{ .name }}</h2>
-          <p class="mb-4 lead">- {{ .designation }}</p>
-          {{ .content | markdownify }}
+          <h2 class="text-lg">{{ $author.name }}</h2>
+          <p class="mb-4 lead">{{ $author.designation }}</p>
+          {{ $author.content | markdownify }}
 
-          {{ if .signature }}
-          <img src="{{ .signature | relURL }}" alt="" class="img-fluid">
+          {{ if $author.signature }}
+          <img src="{{ $author.signature | relURL }}" alt="" class="img-fluid">
+          {{ end }}
+
+          {{ if $author.source }}
+          <h5>Источник: <a href="{{ $author.source }}" target="_blank">{{ $author.source }}</a></h5>
           {{ end }}
         </div>
       </div>
     </div>
+    {{ if eq $index 0}}
+    <div class="row align-items-center">
+      <div class="col-12 m-4"></div>
+    </div>
+    {{ end}}
+    {{ end }}
   </div>
 </section>
 {{ end }}
@@ -369,14 +380,14 @@
       </div>
     </div>
 
-    <div class="row">
+    <div class="row justify-content-center">
       {{ range .contactItem }}
       <div class="col-lg-4 col-sm-6">
         <div class="contact-info-block text-center mb-4">
           <i class="{{ .icon }}"></i>
           <p class="mb-0">{{ .title | markdownify }}</p>
           {{ range .list }}
-          <h5>{{ .listItem }}</h5>
+          <h5><a href="mailto:{{.listItem}}">{{ .listItem }}</a></h5>
           {{ end }}
         </div>
       </div>
