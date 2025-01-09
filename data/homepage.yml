@@ -5,9 +5,9 @@ banner:
   title : "Антибиотико<wbr>грамма"
   image : "images/about/book.png"
   content : "Настольная книга о чтении и интерпретации антибиотикограммы"
-  price : "Готовится к печати. Вы можете оставить свой email, чтобы получить уведомление о доступности для заказа"
-  button: "Оставить email"
-  url: "https://forms.yandex.ru/u/6762c59eeb61466a593b3695/"
+  price : ""
+  button: "Купить"
+  url: "https://ozon.ru/t/NA8j1Jy"
 
 ######################## Book Preview ##########################
 preview:
@@ -36,8 +36,8 @@ preview:
   # button
   button:
     enable : true
-    label : "Получить уведомление о доступности для заказа"
-    link : "https://forms.yandex.ru/u/6762c59eeb61466a593b3695/"
+    label : "Купить"
+    link : "https://ozon.ru/t/NA8j1Jy"
 
 
 ########################## Service ##############################
