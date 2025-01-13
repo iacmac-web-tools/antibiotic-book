@@ -4,11 +4,8 @@
     <title>Антибиотикограмма</title>
     <link>https://antibiotic-book.ru/</link>
     <description>Recent content on Антибиотикограмма</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>ru-ru</language>
-    
-	<atom:link href="https://antibiotic-book.ru/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://antibiotic-book.ru/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
