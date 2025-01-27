@@ -10,6 +10,7 @@ banner:
   buttonEmail: "Оставить Email"
   url: "https://ozon.ru/t/NA8j1Jy"
   urlEmail: https://forms.yandex.ru/u/67852875eb61462b69b1187a/
+  bottomText: "При заказе от 5 экземпляров можно связаться с издательством напрямую по адресу: <a href='mailto:e-noto@list.ru'>e-noto@list.ru</a>"
 
 ######################## Book Preview ##########################
 preview:
