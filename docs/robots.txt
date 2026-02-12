@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://antibiotic-book.ru/sitemap.xml
